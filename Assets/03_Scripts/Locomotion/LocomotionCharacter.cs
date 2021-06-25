@@ -20,7 +20,7 @@ public class LocomotionCharacter : MonoBehaviour
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Vertical");
 
-        animator.SetFloat("InputX", input.x);
-        animator.SetFloat("InputY", input.y);
+        animator.SetFloat("VelocityX", input.x);
+        animator.SetFloat("VelocityY", input.y);
     }
 }
