@@ -8,6 +8,9 @@ public class LocomotionCharacter : MonoBehaviour
     Animator animator;
     Vector2 input;
 
+    [Range(0,1)]
+    public float sensitivity = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +25,8 @@ public class LocomotionCharacter : MonoBehaviour
 
         if (!shiftPressed)
         {
-            input.x = Input.GetAxis("Horizontal");
-            input.y = Input.GetAxis("Vertical");
+            input.x = Input.GetAxis("Horizontal") * sensitivity;
+            input.y = Input.GetAxis("Vertical") * sensitivity;
 
             input.x = Mathf.Clamp(input.x, -0.5f, 0.5f);
             input.y = Mathf.Clamp(input.y, -0.5f, 0.5f);
@@ -31,8 +34,8 @@ public class LocomotionCharacter : MonoBehaviour
 
         } else if (shiftPressed)
         {
-            input.x = Input.GetAxis("Horizontal");
-            input.y = Input.GetAxis("Vertical");
+            input.x = Input.GetAxis("Horizontal") * sensitivity;
+            input.y = Input.GetAxis("Vertical") * sensitivity;
         }
        
 

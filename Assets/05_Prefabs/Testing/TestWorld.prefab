@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5353197564542611268}
   - component: {fileID: 1463454449171483773}
   - component: {fileID: 5121111271911568503}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlatformWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793097235075170199}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.583563, y: -0.8762981, z: 0.19147456}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1, z: 10}
   m_LocalScale: {x: 0.20000002, y: 2, z: 20}
   m_Children: []
   m_Father: {fileID: 2529665856695629431}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &5353197564542611268
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 8978088229876548610}
   - component: {fileID: 8205959864931038307}
   - component: {fileID: 1981269700199399293}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacles (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099206879163072643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.31400013, y: 0.49269348, z: 0.038487792}
+  m_LocalPosition: {x: 0.31400013, y: 0.43799993, z: 0.038487792}
   m_LocalScale: {x: 1, y: 2.326451, z: 1.8009}
   m_Children: []
   m_Father: {fileID: 2315799760481178323}
@@ -388,7 +388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2315799760481178323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Slopes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2452483923646688729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.29644108, y: -0.64019954, z: -0.33531937}
+  m_LocalPosition: {x: -4.57, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7233226838389288422}
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 3577943303618596218}
   - component: {fileID: 100535649379528973}
   - component: {fileID: 8897248003036715180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3341335990610711193}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6375623, y: -0.16930652, z: 0.038487792}
+  m_LocalPosition: {x: -1.6375623, y: -0.22400007, z: 0.038487792}
   m_LocalScale: {x: 1, y: 1, z: 1.8009}
   m_Children: []
   m_Father: {fileID: 2315799760481178323}
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 6286218885709020921}
   - component: {fileID: 5476502046589414551}
   - component: {fileID: 4732419790039297036}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlatformWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,13 +722,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4649362849467537580}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.346437, y: -0.8762981, z: 0.19147456}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 0.20000002, y: 2, z: 20}
   m_Children: []
   m_Father: {fileID: 2529665856695629431}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &6286218885709020921
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 633623752650990529}
   - component: {fileID: 6993632417119069065}
   - component: {fileID: 9018933018622284939}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlatformWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,13 +817,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4709382401452924714}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.483563, y: -0.8762981, z: 10.221477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 1, z: 0}
   m_LocalScale: {x: 0.20000002, y: 2, z: 20}
   m_Children: []
   m_Father: {fileID: 2529665856695629431}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &633623752650990529
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -895,7 +895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4924440802398059354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TestWorld
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 5488309899151799933}
   - component: {fileID: 4698229060201351074}
   - component: {fileID: 305101643299568824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5190201101767647321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.26156, y: -1.387506, z: -0.10535702}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 0.2, z: 20}
   m_Children: []
   m_Father: {fileID: 4924440802398059354}
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 1948004968087196564}
   - component: {fileID: 1241638533282829297}
   - component: {fileID: 4081860138891791511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlatformWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,13 +1040,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6554361751096599098}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.673563, y: -0.8762981, z: -9.678525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 1, z: 0}
   m_LocalScale: {x: 0.20000002, y: 2, z: 20}
   m_Children: []
   m_Father: {fileID: 2529665856695629431}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1948004968087196564
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1122,7 +1122,7 @@ GameObject:
   - component: {fileID: 9071343656097004738}
   - component: {fileID: 6062397028720008791}
   - component: {fileID: 3439374664131164062}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacles (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7401114024918815219}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6679988, y: 0.17469352, z: 0.038487792}
+  m_LocalPosition: {x: -0.6679988, y: 0.12, z: 0.038487792}
   m_LocalScale: {x: 1, y: 1.6652001, z: 1.8009}
   m_Children: []
   m_Father: {fileID: 2315799760481178323}
@@ -1402,7 +1402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2529665856695629431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlatformWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1417,7 +1417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8305286552675372725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6379976, y: 0.37879214, z: -0.29683158}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3311690820134961609}
