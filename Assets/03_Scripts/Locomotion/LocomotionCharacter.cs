@@ -17,10 +17,31 @@ public class LocomotionCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        input.x = Input.GetAxis("Horizontal");
-        input.y = Input.GetAxis("Vertical");
+        bool shiftPressed = Input.GetKey(KeyCode.LeftShift);
+
+
+        if (!shiftPressed)
+        {
+            input.x = Input.GetAxis("Horizontal");
+            input.y = Input.GetAxis("Vertical");
+
+            input.x = Mathf.Clamp(input.x, -0.5f, 0.5f);
+            input.y = Mathf.Clamp(input.y, -0.5f, 0.5f);
+
+
+        } else if (shiftPressed)
+        {
+            input.x = Input.GetAxis("Horizontal");
+            input.y = Input.GetAxis("Vertical");
+        }
+       
+
+
+      
 
         animator.SetFloat("VelocityX", input.x);
         animator.SetFloat("VelocityY", input.y);
+
+       
     }
 }
