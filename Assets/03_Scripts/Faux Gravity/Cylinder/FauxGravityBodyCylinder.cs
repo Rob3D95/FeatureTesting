@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FauxGravityBody : MonoBehaviour
+public class FauxGravityBodyCylinder : MonoBehaviour
 {
-    public FauxGravityAtrractor attractor;
+    public FauxGravityAtrractorCylinder attractor;
     private Transform myTransform;
     public Rigidbody rigidbody;
 
